@@ -1,0 +1,19 @@
+.pb-3, .py-3 {
+    padding-left: 47px !important;
+}
+
+.pt-3, .py-3 {
+    padding-top: 50px;
+}
+
+.main-page-title {
+    padding: 44px 0 29px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 37px;
+    height: 37px;
+    color: #333;
+    box-sizing: content-box;
+}
+
+

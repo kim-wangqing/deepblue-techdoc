@@ -1,0 +1,239 @@
+.bg-header-primary{
+    background-color: #002140 !important;
+}
+
+.navbar{
+    padding: 2px 10px !important;
+    line-height: 1.5rem !important
+}
+
+.container{
+    margin-left: 6px !important;
+    max-width: 1175px !important;
+}
+
+.navbar-brand{
+    font-size: 16px !important;
+    font-weight: 1000 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #ffffff !important;
+    font-size: 15px !important; 
+    font-weight: 600;   
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #00A4ff !important;
+}
+
+.form-control{
+    /* height: calc(1em + 0.785rem + 2px) !important; */
+    font-size: 14px !important;
+    font-weight: 400 !important;    
+    border-color: #e8e8e8;
+}
+
+.form-control::placeholder{
+    color: #8A8E99 !important;
+    opacity: 0.5 !important;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0rem !important;
+}
+
+.mr-sm-2, .mx-sm-2{
+    margin-right: -1rem !important;
+}
+
+h6, .h6{
+    font-size: 14px !important;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #000 !important;
+}
+
+.navbar-light .navbar-nav .nav-link:visited{
+    color: #00A4FF !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #00A4ff !important;
+}
+
+.navbar-light .navbar-nav .nav-link:active{
+    color: #00A4ff !important;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-weight: 500 !important;
+}
+
+h1, .h1 {
+    font-size: 30px !important;
+    line-height: 60px !important;
+}
+
+h2, .h2 {
+    font-size: 22px !important;
+    line-height: 60px !important;
+    color: #000 !important;
+    opacity: .70 !important;
+}
+
+h3, .h3 {
+    font-size: 18px !important;
+    line-height: 40px !important;
+    color: #000 !important;
+    opacity: .70 !important;
+}
+
+h4, .h4 {
+    font-size: 15px !important;
+    line-height: 35px !important;
+    color: #000 !important;
+    opacity: .70 !important;
+}
+
+.lead {
+    font-size: 14px !important;
+    line-height: 1.8 !important;
+    color: rgba(0,0,0,.7) !important;
+    font-weight: normal !important;
+}
+
+p {
+    font-size: 14px !important;
+    line-height: 26px !important;
+    color: rgba(0,0,0,.6) !important;
+    font-weight: normal !important;
+}
+
+.p-1 {
+    font-size: 14px !important;
+}
+
+.ml-2, .mx-2 {
+    margin-left: 1rem !important;
+    font-size: 14px !important;
+    line-height: 28px !important;
+    font-weight: normal;
+}
+
+a:hover{
+    text-decoration: none !important;    
+}
+
+.docs-toc a{
+    font-size: 12px !important;
+    line-height: 2em !important;
+    width: 160px !important;
+}
+
+.docs-toc a:visited{
+    color: #00A4FF !important;
+}
+
+.docs-toc a:hover{
+    color: #00A4FF !important;
+}
+
+.docs-toc a:active{
+    color: #00A4FF !important;
+}
+
+.docs-sidenav ,.docs-toc{
+    height: calc(100vh - 30px) !important;
+    padding-top: 30px !important; 
+    top: 38px !important;
+    position: fixed;
+} 
+
+.justify-content-center {
+    justify-content: space-between !important;
+}
+
+.bottom-box{
+    width: 100% !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.shadow {
+    box-shadow: 0rem 0rem !important;
+}
+
+.text-white {
+    color: rgba(0,0,0,.6) !important;
+}
+
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free"; 
+    opacity: 50%;
+}
+
+.page-action .mt-5 {
+    margin-top: 0 !important;
+}
+
+ol, ul, dl {
+    font-size: 14px !important;
+    color: rgba(0,0,0,.6) !important;
+    padding-left: 16px;   
+    line-height: 1.5rem;   
+}
+
+.docs-toc ul {
+    padding-left: 13px;
+}
+
+.pb-3, .py-3 {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+
+img {
+    max-width: 720px !important;
+}
+
+table {
+    font-size: 14px !important;
+    line-height: 26px !important;
+}
+
+.btn {
+    font-size: 14px !important;
+    color: #000 !important;
+    opacity: .60 !important;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+
+.highlight {
+    line-height: 1.5 !important;
+}
+
+.highlight>pre {
+    padding: 0px !important;
+}
+
+.position-relative {
+    line-height: 1.8 !important;
+}
+
+pre code {
+    line-height: 1.8 !important;
+    text-shadow: 0 1px #fff;
+    background: #f5f2f0;  
+}
+
+.docs-sidenav .navbar-collapse, .docs-sidenav .navbar-nav {
+    width: 100% !important;
+    padding-right: 10px;
+}
+
+.order-evaluation {
+    margin: 50px -26px !important;
+}

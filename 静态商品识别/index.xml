@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>静态商品识别 on 深兰技术文档</title>
+    <link>https://kim-wangqing.github.io/%E9%9D%99%E6%80%81%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB.html</link>
+    <description>Recent content in 静态商品识别 on 深兰技术文档</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://kim-wangqing.github.io/%E9%9D%99%E6%80%81%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>小兰商品识别 API - 接口说明</title>
+      <link>https://kim-wangqing.github.io/%E9%9D%99%E6%80%81%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB/%E5%B0%8F%E5%85%B0%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB-api-%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kim-wangqing.github.io/%E9%9D%99%E6%80%81%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB/%E5%B0%8F%E5%85%B0%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB-api-%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E.html</guid>
+      <description>接口说明 客户端提供设备使用的模型和设备识别的图片，算法识别到图片中的商品，返回客户购买商品的条形码和数量。
+接口能力    接口名称 接口能力描述     V1.0 商品识别接口 识别 HTTP 传输的图片   V2.0 商品识别接口 下载图片，并识别    </description>
+    </item>
+    
+    <item>
+      <title>小兰商品识别 API - V1.0 调用方式</title>
+      <link>https://kim-wangqing.github.io/%E9%9D%99%E6%80%81%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB/%E5%B0%8F%E5%85%B0%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB-api-v1.0-%E8%B0%83%E7%94%A8%E6%96%B9%E5%BC%8F.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kim-wangqing.github.io/%E9%9D%99%E6%80%81%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB/%E5%B0%8F%E5%85%B0%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB-api-v1.0-%E8%B0%83%E7%94%A8%E6%96%B9%E5%BC%8F.html</guid>
+      <description>请求 URL http://10.16.32.121/api/ai/smimageRecognitionUpload
+请求方式 HTTP 方法：POST
+请求限制 单用户单接口无请求次数限制。
+请求参数说明    参数名 是否必选 类型 说明     machineID 是 string 设备编号   type 是 string 订单类型   files 是 file 识别图片    请求示例 machineID: DBV368-SQA-001190type: initQueryfiles: 文件响应示例 Copy{&amp;quot;msg&amp;quot;:[{&amp;quot;product_barcode&amp;quot;:&amp;quot;6949133701986&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6928804014686&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6928804011296&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6925303730574&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6902538004045&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6928804010220&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6926892566087&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6926892568081&amp;quot;,&amp;quot;num&amp;quot;:1},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6925303757014&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6924743915831&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6923644223458&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6925303791155&amp;quot;,&amp;quot;num&amp;quot;:2},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6956416200067&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6925303770563&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6920584471017&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6924743915848&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6925303754952&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6921168509256&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6921168593569&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6917878036847&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6922255447833&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6926892501033&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6921168593583&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6920734709922&amp;quot;,&amp;quot;num&amp;quot;:0}],&amp;quot;status&amp;quot;:&amp;quot;success&amp;quot;}响应参数说明    参数名 类型 说明     msg string 说明信息   data string 识别结果   markedUrls string 识别后的图片地址   status string 处理结果状态    错误码    HTTP 状态码 错误信息 建议处理     status error 重新发送请求    </description>
+    </item>
+    
+    <item>
+      <title>小兰商品识别 API - V2.0 调用方式</title>
+      <link>https://kim-wangqing.github.io/%E9%9D%99%E6%80%81%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB/%E5%B0%8F%E5%85%B0%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB-api-v2.0-%E8%B0%83%E7%94%A8%E6%96%B9%E5%BC%8F.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kim-wangqing.github.io/%E9%9D%99%E6%80%81%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB/%E5%B0%8F%E5%85%B0%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB-api-v2.0-%E8%B0%83%E7%94%A8%E6%96%B9%E5%BC%8F.html</guid>
+      <description>请求 URL http://10.16.32.121/api/ai/smimageRecognition
+请求方式 HTTP 方法：POST
+请求限制 单用户单接口无请求次数限制。
+请求参数说明    参数名 是否必选 类型 说明      modelDir 是 string 模型文件在 oss 上的路径    modelID 是 int 模型 id    modelMd5 是 string 模型 md5    threshold 是 float 检测的阈值    algType 是 string 算法的类型    images 是 string 图片在 oss 上的地址     请求示例 modelDir: modelDir=sm-deepblue/modes/pose/927/modelID: 927modelMd5: 03f1b2898f34bf5a7f5c7186d7852f49threshold: 0.</description>
+    </item>
+    
+  </channel>
+</rss>

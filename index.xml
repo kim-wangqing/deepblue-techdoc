@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>深兰技术文档</title>
+    <link>https://kim-wangqing.github.io/</link>
+    <description>Recent content on 深兰技术文档</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://kim-wangqing.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TCP Socket 接口</title>
+      <link>https://kim-wangqing.github.io/%E7%A7%BB%E5%8A%A8%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AF%BC%E8%88%AA%E6%8E%A7%E5%88%B6%E5%B9%B3%E5%8F%B0/tcp-socket-%E6%8E%A5%E5%8F%A3.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kim-wangqing.github.io/%E7%A7%BB%E5%8A%A8%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AF%BC%E8%88%AA%E6%8E%A7%E5%88%B6%E5%B9%B3%E5%8F%B0/tcp-socket-%E6%8E%A5%E5%8F%A3.html</guid>
+      <description>简介 该接口基于 TCP / IP 协议，用于和导航系统层的通讯，适用的通讯指令类型有：
+ 状态类指令：用于获取机器人的信息等； 控制类指令：用于操作机器人的创建地图、发布任务、遥控机器人等； 配置类指令：用于上传、下载地图，配置参数； 推送类指令：用于系统主动向外部系统推送一些重要的状态信息（该类指令无需应答）； 洗地机业务指令：用于操作和洗地机业务相关信息。  端口说明    名称 端口 允许连接数     状态类指令 11235 2   控制类指令 11236 2   配置类指令 JSON 2   推送类指令 待定 2    报文结构    名称 内容 长度(byte) 说明     协议头 0 x 5A 1 报文同步头，用于确定报文头部的开始   协议版本 1 1 协议的主版本号，用于 v1.</description>
+    </item>
+    
+    <item>
+      <title>双电机伺服驱动测试</title>
+      <link>https://kim-wangqing.github.io/%E8%87%AA%E5%8A%A8%E5%AF%BC%E8%88%AA%E8%BF%90%E5%8A%A8%E6%A8%A1%E7%BB%84/%E5%8F%8C%E7%94%B5%E6%9C%BA%E4%BC%BA%E6%9C%8D%E9%A9%B1%E5%8A%A8.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kim-wangqing.github.io/%E8%87%AA%E5%8A%A8%E5%AF%BC%E8%88%AA%E8%BF%90%E5%8A%A8%E6%A8%A1%E7%BB%84/%E5%8F%8C%E7%94%B5%E6%9C%BA%E4%BC%BA%E6%9C%8D%E9%A9%B1%E5%8A%A8.html</guid>
+      <description>功能描述  实现电机电流回路、速度回路、偏航回路反馈控制。 兼容多种速度检测信号：模拟、PWM、QEI。 兼容多种接口：UART / CAN。 保护：过流、限速、急停、过热、短路、绝缘等。 兼容多种传感器接口：IMU、超声波等。  参数规格 </description>
+    </item>
+    
+    <item>
+      <title>小兰商品识别 API - 接口说明</title>
+      <link>https://kim-wangqing.github.io/%E9%9D%99%E6%80%81%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB/%E5%B0%8F%E5%85%B0%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB-api-%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kim-wangqing.github.io/%E9%9D%99%E6%80%81%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB/%E5%B0%8F%E5%85%B0%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB-api-%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E.html</guid>
+      <description>接口说明 客户端提供设备使用的模型和设备识别的图片，算法识别到图片中的商品，返回客户购买商品的条形码和数量。
+接口能力    接口名称 接口能力描述     V1.0 商品识别接口 识别 HTTP 传输的图片   V2.0 商品识别接口 下载图片，并识别    </description>
+    </item>
+    
+    <item>
+      <title>性能参数</title>
+      <link>https://kim-wangqing.github.io/%E5%9F%BA%E4%BA%8E-rk3399pro-%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%80%9A%E7%94%A8%E5%B9%B3%E5%8F%B0/%E6%80%A7%E8%83%BD%E5%8F%82%E6%95%B0.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kim-wangqing.github.io/%E5%9F%BA%E4%BA%8E-rk3399pro-%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%80%9A%E7%94%A8%E5%B9%B3%E5%8F%B0/%E6%80%A7%E8%83%BD%E5%8F%82%E6%95%B0.html</guid>
+      <description>参数名称描述接口USB3.0 3xUSB2.0 7xmircoUSB 2xUART 4x，1000M 网口 1xGPIO 30xDual MIPI-CSI 2x 内置双硬件 ISP，最高支持单 13Mpixel 或双 8MpixelHDMI 2x 支持 4K @ 60HZ 输出和 HDCP 1.4/2.2LVDS 1xM.2 2x（4G/5G)Dual MIPI-DSI 1x 支持单通道 1080P@ 60fps 输出I2S/PCM 1x 用于音频输入输出（支持 8 路数字麦克风阵列输入）Speaker，Mic 1x，I2C,SPI 1x算力ARM® Mali-T860 MP4 四核 GPU支持 OpenGL ES1.</description>
+    </item>
+    
+    <item>
+      <title>追声语音机器人能力开放平台 API - 参数说明</title>
+      <link>https://kim-wangqing.github.io/%E6%99%BA%E8%83%BD%E7%94%B5%E8%AF%9D%E8%AF%AD%E9%9F%B3%E6%9C%BA%E5%99%A8%E4%BA%BA/%E8%BF%BD%E5%A3%B0%E8%AF%AD%E9%9F%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%83%BD%E5%8A%9B%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0-api-%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kim-wangqing.github.io/%E6%99%BA%E8%83%BD%E7%94%B5%E8%AF%9D%E8%AF%AD%E9%9F%B3%E6%9C%BA%E5%99%A8%E4%BA%BA/%E8%BF%BD%E5%A3%B0%E8%AF%AD%E9%9F%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%83%BD%E5%8A%9B%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0-api-%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E.html</guid>
+      <description>公共参数 请求参数    参数名 是否必选 类型 说明     sign 是 string 签名   timeStamp 是 integer 签名时间戳   appid 是 integer 用户 AppID    响应参数    参数名 类型 说明     msg string 返回信息   code integer 错误码，调用成功返回 0   data object 返回数据    签名 REST API 访问信息    环境 HTTP 请求地址     联调环境 http://dev.</description>
+    </item>
+    
+    <item>
+      <title>Web Socket 接口</title>
+      <link>https://kim-wangqing.github.io/%E7%A7%BB%E5%8A%A8%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AF%BC%E8%88%AA%E6%8E%A7%E5%88%B6%E5%B9%B3%E5%8F%B0/web-socket-%E6%8E%A5%E5%8F%A3.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kim-wangqing.github.io/%E7%A7%BB%E5%8A%A8%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AF%BC%E8%88%AA%E6%8E%A7%E5%88%B6%E5%B9%B3%E5%8F%B0/web-socket-%E6%8E%A5%E5%8F%A3.html</guid>
+      <description>简介 该接口基于 Websocket 协议，用于和通用业务层进行通讯，使用的通讯指令类型有：
+ 状态类指令 控制类指令 配置类指令 推送类指令 通用业务指令 洗地机业务指令 福喜机器人业务指令  端口说明    名称 端口 允许连接数     通用业务端口 11233 1   专用业务端口(洗地 / 福喜) 11234 1    报文结构    字段名 类型 描述 可缺省     type number 指令编号 否   json json document 指令 JSON 数据区 否   number number 请求及响应的序号，0~65535，请求包与响应 包的字段相同，API 使用者</description>
+    </item>
+    
+    <item>
+      <title>主控芯片技术规格</title>
+      <link>https://kim-wangqing.github.io/%E5%9F%BA%E4%BA%8E-nvidia-jetson-agx-%E7%9A%84%E9%80%9A%E7%94%A8%E7%AE%97%E5%8A%9B%E5%B9%B3%E5%8F%B0/%E4%B8%BB%E6%8E%A7%E8%8A%AF%E7%89%87%E6%8A%80%E6%9C%AF%E8%A7%84%E6%A0%BC.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kim-wangqing.github.io/%E5%9F%BA%E4%BA%8E-nvidia-jetson-agx-%E7%9A%84%E9%80%9A%E7%94%A8%E7%AE%97%E5%8A%9B%E5%B9%B3%E5%8F%B0/%E4%B8%BB%E6%8E%A7%E8%8A%AF%E7%89%87%E6%8A%80%E6%9C%AF%E8%A7%84%E6%A0%BC.html</guid>
+      <description>NVIDIA® Jetson AGX Xavier™ 参数名称描述GPU512 核 Volta GPU (具有 64 个 Tensor 核心)11 TFLOPS (FP16)22 TOPS (INT8)DL 加速器(2x) NVDLA 引擎5 TFLOPS (FP16)10 TOPS (INT8)CPU8 核 ARM v8.2 64 位 CPU8MB L2+4MB L3内存16GB 256 位 LPDDR4x2133MHz - 137GB/s显示接口三个多模式 DP 1.</description>
+    </item>
+    
+    <item>
+      <title>主控芯片技术规格</title>
+      <link>https://kim-wangqing.github.io/%E5%9F%BA%E4%BA%8E-nvidia-nano-nx-%E7%9A%84%E9%80%9A%E7%94%A8%E7%AE%97%E5%8A%9B%E5%B9%B3%E5%8F%B0/%E4%B8%BB%E6%8E%A7%E8%8A%AF%E7%89%87%E6%8A%80%E6%9C%AF%E8%A7%84%E6%A0%BC.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kim-wangqing.github.io/%E5%9F%BA%E4%BA%8E-nvidia-nano-nx-%E7%9A%84%E9%80%9A%E7%94%A8%E7%AE%97%E5%8A%9B%E5%B9%B3%E5%8F%B0/%E4%B8%BB%E6%8E%A7%E8%8A%AF%E7%89%87%E6%8A%80%E6%9C%AF%E8%A7%84%E6%A0%BC.html</guid>
+      <description>NVIDIA® Jetson Nano™ 参数名称描述GPUNVIDIA Maxwell™ 架构，配有 128 个 NVIDIA CUDA® 核心0.5 TFLOPS (FP16)CPU四核 ARM® Cortex®-A57 MPCore 处理器显存4 GB 64 位 LPDDR4  1600 MHz – 25.6 GB/s存储16 GB eMMC 5.1 闪存视频编码250 MP/s1x 4K @ 30 (HEVC)  2x 1080p @ 60 (HEVC) 4x 1080p @ 30 (HEVC)视频解码500 MP/s  1x 4K @ 60 (HEVC) 2x 4K @ 30 (HEVC) 4x 1080p @ 60 (HEVC) 8x 1080p @ 30 (HEVC)摄像头12 通道（3x4 或 4x2）MIPI CSI-2 D-PHY 1.</description>
+    </item>
+    
+    <item>
+      <title>基本框架</title>
+      <link>https://kim-wangqing.github.io/%E5%9F%BA%E4%BA%8E-rk3399pro-%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%80%9A%E7%94%A8%E5%B9%B3%E5%8F%B0/%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kim-wangqing.github.io/%E5%9F%BA%E4%BA%8E-rk3399pro-%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%80%9A%E7%94%A8%E5%B9%B3%E5%8F%B0/%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>小兰商品识别 API - V1.0 调用方式</title>
+      <link>https://kim-wangqing.github.io/%E9%9D%99%E6%80%81%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB/%E5%B0%8F%E5%85%B0%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB-api-v1.0-%E8%B0%83%E7%94%A8%E6%96%B9%E5%BC%8F.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kim-wangqing.github.io/%E9%9D%99%E6%80%81%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB/%E5%B0%8F%E5%85%B0%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB-api-v1.0-%E8%B0%83%E7%94%A8%E6%96%B9%E5%BC%8F.html</guid>
+      <description>请求 URL http://10.16.32.121/api/ai/smimageRecognitionUpload
+请求方式 HTTP 方法：POST
+请求限制 单用户单接口无请求次数限制。
+请求参数说明    参数名 是否必选 类型 说明     machineID 是 string 设备编号   type 是 string 订单类型   files 是 file 识别图片    请求示例 machineID: DBV368-SQA-001190type: initQueryfiles: 文件响应示例 Copy{&amp;quot;msg&amp;quot;:[{&amp;quot;product_barcode&amp;quot;:&amp;quot;6949133701986&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6928804014686&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6928804011296&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6925303730574&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6902538004045&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6928804010220&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6926892566087&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6926892568081&amp;quot;,&amp;quot;num&amp;quot;:1},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6925303757014&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6924743915831&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6923644223458&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6925303791155&amp;quot;,&amp;quot;num&amp;quot;:2},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6956416200067&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6925303770563&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6920584471017&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6924743915848&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6925303754952&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6921168509256&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6921168593569&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6917878036847&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6922255447833&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6926892501033&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6921168593583&amp;quot;,&amp;quot;num&amp;quot;:0},{&amp;quot;product_barcode&amp;quot;:&amp;quot;6920734709922&amp;quot;,&amp;quot;num&amp;quot;:0}],&amp;quot;status&amp;quot;:&amp;quot;success&amp;quot;}响应参数说明    参数名 类型 说明     msg string 说明信息   data string 识别结果   markedUrls string 识别后的图片地址   status string 处理结果状态    错误码    HTTP 状态码 错误信息 建议处理     status error 重新发送请求    </description>
+    </item>
+    
+    <item>
+      <title>自主导航控制</title>
+      <link>https://kim-wangqing.github.io/%E8%87%AA%E5%8A%A8%E5%AF%BC%E8%88%AA%E8%BF%90%E5%8A%A8%E6%A8%A1%E7%BB%84/%E8%87%AA%E4%B8%BB%E5%AF%BC%E8%88%AA%E6%8E%A7%E5%88%B6.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kim-wangqing.github.io/%E8%87%AA%E5%8A%A8%E5%AF%BC%E8%88%AA%E8%BF%90%E5%8A%A8%E6%A8%A1%E7%BB%84/%E8%87%AA%E4%B8%BB%E5%AF%BC%E8%88%AA%E6%8E%A7%E5%88%B6.html</guid>
+      <description>图形  建图  基于 2D 激光雷达、IMU、编码器的融合建图； 支持 Gmapping, Karto, Cartographer 等建图算法； 提供最高达 5cm 分辨率的环境栅格地图，和大场景建图(10000 平方米，这与激光最大量程有关，具体需要测试)； 对 Cartographer 算法进行重点调优。   即时定位  基于 2D 激光雷达、IMU、编码器的机器人 SLAM 技术，提供已知和未知环境的定位和重定位功能，以及未知环境的实时定位能力； 基于二维码的标签的实时定位； 基于直接法的视觉辅助定位，提供测试案例。   全局规划  基于二维栅格地图的全局路径规划算法，包含 AStar、RRT 系列算法； 提供详细的规划状态报告和控制接口。   避障局部规划  基于全局路径的局部路径规划 DWA 算法； 基于全局路径的路径跟踪 LQR 控制算法。   自动回充  集成基于激光特征识别以及红外信标方式的自动回充对接算法； 实现机器人自主完成充电对接的所有过程。   其他业务接口需求  基于下发多边形工作区域的回形和弓形全覆盖规划功能； 基于带闭环控制的 SLAM 底盘的全覆盖运动功能； 提供更适合全覆盖的运动控制，使得实际覆盖行走顺畅，路径平直； 提供 Realsense D400 系列摄像头接入； 提供深度、彩色、红外图像和相机姿态数据。    参数规格 </description>
+    </item>
+    
+    <item>
+      <title>小兰商品识别 API - V2.0 调用方式</title>
+      <link>https://kim-wangqing.github.io/%E9%9D%99%E6%80%81%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB/%E5%B0%8F%E5%85%B0%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB-api-v2.0-%E8%B0%83%E7%94%A8%E6%96%B9%E5%BC%8F.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kim-wangqing.github.io/%E9%9D%99%E6%80%81%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB/%E5%B0%8F%E5%85%B0%E5%95%86%E5%93%81%E8%AF%86%E5%88%AB-api-v2.0-%E8%B0%83%E7%94%A8%E6%96%B9%E5%BC%8F.html</guid>
+      <description>请求 URL http://10.16.32.121/api/ai/smimageRecognition
+请求方式 HTTP 方法：POST
+请求限制 单用户单接口无请求次数限制。
+请求参数说明    参数名 是否必选 类型 说明      modelDir 是 string 模型文件在 oss 上的路径    modelID 是 int 模型 id    modelMd5 是 string 模型 md5    threshold 是 float 检测的阈值    algType 是 string 算法的类型    images 是 string 图片在 oss 上的地址     请求示例 modelDir: modelDir=sm-deepblue/modes/pose/927/modelID: 927modelMd5: 03f1b2898f34bf5a7f5c7186d7852f49threshold: 0.</description>
+    </item>
+    
+    <item>
+      <title>机车平台接口</title>
+      <link>https://kim-wangqing.github.io/%E8%87%AA%E5%8A%A8%E5%AF%BC%E8%88%AA%E8%BF%90%E5%8A%A8%E6%A8%A1%E7%BB%84/%E6%9C%BA%E8%BD%A6%E5%B9%B3%E5%8F%B0%E6%8E%A5%E5%8F%A3.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kim-wangqing.github.io/%E8%87%AA%E5%8A%A8%E5%AF%BC%E8%88%AA%E8%BF%90%E5%8A%A8%E6%A8%A1%E7%BB%84/%E6%9C%BA%E8%BD%A6%E5%B9%B3%E5%8F%B0%E6%8E%A5%E5%8F%A3.html</guid>
+      <description>功能描述 按目前机车平台通讯要求实现模组与机车平台软件通讯功能，机车平台接口功能包括：
+ 机器人应用程序和云平台接口  实时状态数据的上传接口; 地图和任务信息的同步; 故障信息的实时上报; 报警信息的实时上报; 其他。   机器人应用程序和手机APP接口  扫图接口; 重定位接口; 故障接口; 报警接口; 其他。   机器人应用程序和SLAM接口  扫图接口; 导航接口; 重定位接口; 实时位置接口; 其他。   机器人应用程序和嵌入式接口  超声波数据; 激光数据; 其他。    </description>
+    </item>
+    
+    <item>
+      <title>硬件部分规格参数</title>
+      <link>https://kim-wangqing.github.io/%E5%9F%BA%E4%BA%8E-rk3399pro-%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%80%9A%E7%94%A8%E5%B9%B3%E5%8F%B0/%E7%A1%AC%E4%BB%B6%E9%83%A8%E5%88%86%E8%A7%84%E6%A0%BC%E5%8F%82%E6%95%B0.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kim-wangqing.github.io/%E5%9F%BA%E4%BA%8E-rk3399pro-%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%80%9A%E7%94%A8%E5%B9%B3%E5%8F%B0/%E7%A1%AC%E4%BB%B6%E9%83%A8%E5%88%86%E8%A7%84%E6%A0%BC%E5%8F%82%E6%95%B0.html</guid>
+      <description>基本参数 参数名称描述主控芯片Rockchip RK3399ProCPU双 Cortex-A72+四 Cortex-A53 大小核 CPU 结构频率最高 1 .8G Hz 图形处理器ARMⓇ Mali-T860 MP4 四核 GPU 支持 OpenGL ES1.1/2.0/3.0/3.1, OpenVG1.1, OpenCL, DX11 支持 AFBC (帧缓冲压缩)NPU内置运算性能强悍的神经网处理器 NPU:
+- 支持 8bit/16bi 运算, 运算性能高达 3.0TOPS
+- 相较于 GPU 作为 AI 运算单元的大型芯片方案，功耗不到 GPU 所需要的 1%
+- 可直接加载 Caffe/MxnetTensorFlow 模型</description>
+    </item>
+    
+    <item>
+      <title>追声语音机器人能力开放平台 API - 接口说明</title>
+      <link>https://kim-wangqing.github.io/%E6%99%BA%E8%83%BD%E7%94%B5%E8%AF%9D%E8%AF%AD%E9%9F%B3%E6%9C%BA%E5%99%A8%E4%BA%BA/%E8%BF%BD%E5%A3%B0%E8%AF%AD%E9%9F%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%83%BD%E5%8A%9B%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0-api-%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kim-wangqing.github.io/%E6%99%BA%E8%83%BD%E7%94%B5%E8%AF%9D%E8%AF%AD%E9%9F%B3%E6%9C%BA%E5%99%A8%E4%BA%BA/%E8%BF%BD%E5%A3%B0%E8%AF%AD%E9%9F%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%83%BD%E5%8A%9B%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0-api-%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E.html</guid>
+      <description>机器人对话接口 通过该接口可上行文字快速实现与机器人的对话，平台提供机器人搭建工具以支持快速配置与用户的交互流程。
+接口协议 REST GET
+请求地址 /openapi/robot/chat
+请求参数    参数名 是否必选 类型 说明     content 是 string 上下文信息，初始为空，接下来获取每一次请求结果的 content 的 JSON   message 是 string 对话内容   tp_id 是 integer 话术模版 ID    响应参数    参数名 类型 说明     message string 机器人回复文本   content string 话术上下文，用于下一次请求的上下文关联   url string 机器人回复录音下载链接    请求示例 POST /openapi/robot/chat HTTP/1.</description>
+    </item>
+    
+    <item>
+      <title>供电管理</title>
+      <link>https://kim-wangqing.github.io/%E8%87%AA%E5%8A%A8%E5%AF%BC%E8%88%AA%E8%BF%90%E5%8A%A8%E6%A8%A1%E7%BB%84/%E4%BE%9B%E7%94%B5%E7%AE%A1%E7%90%86.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kim-wangqing.github.io/%E8%87%AA%E5%8A%A8%E5%AF%BC%E8%88%AA%E8%BF%90%E5%8A%A8%E6%A8%A1%E7%BB%84/%E4%BE%9B%E7%94%B5%E7%AE%A1%E7%90%86.html</guid>
+      <description>功能描述  输出隔离源5V/4.0A，12V/2.0A，以及电池电压直接输出（3.0A） 电池充电管理  参数规格 </description>
+    </item>
+    
+    <item>
+      <title>量产自动化可视界面</title>
+      <link>https://kim-wangqing.github.io/%E8%87%AA%E5%8A%A8%E5%AF%BC%E8%88%AA%E8%BF%90%E5%8A%A8%E6%A8%A1%E7%BB%84/%E9%87%8F%E4%BA%A7%E8%87%AA%E5%8A%A8%E5%8C%96%E5%8F%AF%E8%A7%86%E7%95%8C%E9%9D%A2.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kim-wangqing.github.io/%E8%87%AA%E5%8A%A8%E5%AF%BC%E8%88%AA%E8%BF%90%E5%8A%A8%E6%A8%A1%E7%BB%84/%E9%87%8F%E4%BA%A7%E8%87%AA%E5%8A%A8%E5%8C%96%E5%8F%AF%E8%A7%86%E7%95%8C%E9%9D%A2.html</guid>
+      <description>可视界面功能  传感器数据实时显示，包括：IMU、超声波、编码器、电池容量、运动速度等； 参数配置，包括：编号、供电电源、编码器型号、最大速度限制、过载力矩设置，以及各种调试参数配置； 调试界面，包括：参数调整、故障分析等； 测试界面，包括：最大运行速度、最大功率、负载刹车距离等； OTA 升级。  量产自动化可视界面 </description>
+    </item>
+    
+  </channel>
+</rss>

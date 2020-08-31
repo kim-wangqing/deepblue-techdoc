@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>智能电话语音机器人 on 深兰技术文档</title>
+    <link>https://kim-wangqing.github.io/%E6%99%BA%E8%83%BD%E7%94%B5%E8%AF%9D%E8%AF%AD%E9%9F%B3%E6%9C%BA%E5%99%A8%E4%BA%BA.html</link>
+    <description>Recent content in 智能电话语音机器人 on 深兰技术文档</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://kim-wangqing.github.io/%E6%99%BA%E8%83%BD%E7%94%B5%E8%AF%9D%E8%AF%AD%E9%9F%B3%E6%9C%BA%E5%99%A8%E4%BA%BA/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>追声语音机器人能力开放平台 API - 参数说明</title>
+      <link>https://kim-wangqing.github.io/%E6%99%BA%E8%83%BD%E7%94%B5%E8%AF%9D%E8%AF%AD%E9%9F%B3%E6%9C%BA%E5%99%A8%E4%BA%BA/%E8%BF%BD%E5%A3%B0%E8%AF%AD%E9%9F%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%83%BD%E5%8A%9B%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0-api-%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kim-wangqing.github.io/%E6%99%BA%E8%83%BD%E7%94%B5%E8%AF%9D%E8%AF%AD%E9%9F%B3%E6%9C%BA%E5%99%A8%E4%BA%BA/%E8%BF%BD%E5%A3%B0%E8%AF%AD%E9%9F%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%83%BD%E5%8A%9B%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0-api-%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E.html</guid>
+      <description>公共参数 请求参数    参数名 是否必选 类型 说明     sign 是 string 签名   timeStamp 是 integer 签名时间戳   appid 是 integer 用户 AppID    响应参数    参数名 类型 说明     msg string 返回信息   code integer 错误码，调用成功返回 0   data object 返回数据    签名 REST API 访问信息    环境 HTTP 请求地址     联调环境 http://dev.</description>
+    </item>
+    
+    <item>
+      <title>追声语音机器人能力开放平台 API - 接口说明</title>
+      <link>https://kim-wangqing.github.io/%E6%99%BA%E8%83%BD%E7%94%B5%E8%AF%9D%E8%AF%AD%E9%9F%B3%E6%9C%BA%E5%99%A8%E4%BA%BA/%E8%BF%BD%E5%A3%B0%E8%AF%AD%E9%9F%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%83%BD%E5%8A%9B%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0-api-%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kim-wangqing.github.io/%E6%99%BA%E8%83%BD%E7%94%B5%E8%AF%9D%E8%AF%AD%E9%9F%B3%E6%9C%BA%E5%99%A8%E4%BA%BA/%E8%BF%BD%E5%A3%B0%E8%AF%AD%E9%9F%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%83%BD%E5%8A%9B%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0-api-%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E.html</guid>
+      <description>机器人对话接口 通过该接口可上行文字快速实现与机器人的对话，平台提供机器人搭建工具以支持快速配置与用户的交互流程。
+接口协议 REST GET
+请求地址 /openapi/robot/chat
+请求参数    参数名 是否必选 类型 说明     content 是 string 上下文信息，初始为空，接下来获取每一次请求结果的 content 的 JSON   message 是 string 对话内容   tp_id 是 integer 话术模版 ID    响应参数    参数名 类型 说明     message string 机器人回复文本   content string 话术上下文，用于下一次请求的上下文关联   url string 机器人回复录音下载链接    请求示例 POST /openapi/robot/chat HTTP/1.</description>
+    </item>
+    
+  </channel>
+</rss>
